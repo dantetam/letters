@@ -1,8 +1,13 @@
 
+#include <vector>
+
+#include "Grid.h"
 
 Grid::Grid(int r, int c)
 {
-    actor = Actor[r][c];
+    actors.resize(r, std::vector<Actor>());
+    rows = r;
+    cols = c;
 }
 
 Grid::~Grid()

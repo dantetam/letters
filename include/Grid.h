@@ -12,7 +12,8 @@ class Grid
     public:
         Grid(int r, int c);
         virtual ~Grid();
-        std::vector<Actor> actors(10, Actor(this,5,5));
+        std::vector< std::vector<Actor> > actors;
+        int rows, cols;
     protected:
     private:
 };

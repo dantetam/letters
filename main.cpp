@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include <windows.h> // WinApi header
+
 #include "Grid.h"
 
 using namespace std; // std::cout, std::cin
