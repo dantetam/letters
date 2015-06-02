@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1433277964 source:c:\users\dante\dropbox\letters\main.cpp
+	<iostream>
+	<windows.h>
+	"Grid.h"
+
+1433278203 c:\users\dante\dropbox\letters\include\grid.h
+	"Actor.h"
+
+1433277918 source:c:\users\dante\dropbox\letters\src\actor.cpp
+	"Actor.h"
+	"Grid.h"
+
+1433278449 c:\users\dante\dropbox\letters\include\actor.h
+	"Grid.h"
+
