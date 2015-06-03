@@ -19,10 +19,9 @@ int main()
     hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 
     Grid g(10,10);
-    for (int r = 0; r < 10; r++)
-    {
 
-    }
+    Actor actor = g.addActor(5,5);
+    cout << actor.row << endl;
 
     // you can loop k higher to see more color choices
     for(int k = 1; k < 255; k++)

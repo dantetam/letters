@@ -10,10 +10,10 @@ class Actor
     public:
         Actor(Grid g, int r, int c);
         virtual ~Actor();
-        Grid* grid;
-    protected:
         int row;
         int col;
+    protected:
+        Grid* grid;
     private:
 };
 
